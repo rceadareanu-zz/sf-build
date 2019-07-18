@@ -1,0 +1,27 @@
+{
+  "packageDirectories" : [
+    {"path": "sfdx-source/force-app", "default": true}
+  ],
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "45.0",
+  "plugins": {
+    "sfdxFalcon": {
+      "developerAlias"  : "bci_fsc",
+      "developerName"   : "BCI",
+      "projectAlias"    : "bci_dev_r1",
+      "projectName"     : "R1",
+      "projectFamily"   : "ADK",
+      "projectType"     : "single-demo",
+      "defaultRecipe"   : "demo-recipe.json",
+      "gitRemoteUri"    : "https://github.com/rcead/sf-build.git",
+      "gitHubUrl"       : "https://github.com/my-org/my-repo",
+      "projectVersion"  : "0.0.1",
+      "schemaVersion"   : "0.0.1",
+      "pluginVersion"   : "0.0.93",
+      "appxPackage"     : {},
+      "appxDemo": {
+        "demoRecipes"   : ["demo-recipe.json"]
+      }
+    }			
+  }
+}

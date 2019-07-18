@@ -1,0 +1,18 @@
+{
+  "orgName": "R1 - Demo Org",
+  "description": "ADK Sample Demo Org",
+  "country": "US",
+  "edition": "Developer",
+  "hasSampleData": false,
+  "language": "en_US",
+  "features": [
+    "Communities",
+    "ContactsToMultipleAccounts"
+  ],
+  "settings": {
+    "orgPreferenceSettings": {
+      "chatterEnabled": true,
+      "networksEnabled": true
+    }
+  }
+}
